@@ -19,8 +19,8 @@
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #370c28;
-    color: floralwhite;
+    background: #7777774f;
+    color: black;
 }
 
 .address {
@@ -50,7 +50,12 @@ textarea {
 }
 
 .carousel {
-    background: #370c28;
+    background: #7777774f;
+    
+}
+
+.carousel-caption mb-5{
+    color: black;
 }
 
 .carousel-item {
@@ -73,12 +78,12 @@ textarea {
 }
 
 .modal-header {
-    background: #232323;
-    color: floralwhite;
+    background: #7777774f;
+    color: black;
 }
 
 .modal-body {
-    background: #7777774f;
+    background: floralwhite;
 }
 
 .close {
