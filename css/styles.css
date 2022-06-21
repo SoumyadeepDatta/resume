@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+
+body{
+    font-family: Product Sans;
+}
+
+
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -78,14 +90,14 @@ textarea {
 }
 
 .modal-header {
-    background: #7777774f;
-    color: black;
+    background: rgba(0,0,0,0.95);
+    color: white;
 }
 
 .modal-body {
-    background: floralwhite;
+    background: white;
 }
 
 .close {
-    color: floralwhite;
+    color: white;
 }

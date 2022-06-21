@@ -14,6 +14,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="/templates/images/resume.png">
 
   <!-- Bootstrap CSS -->
 
@@ -33,7 +34,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background: rgba(0,0,0,0.95);">
     <div class="container">
       <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#Navbar">
         <span class="navbar-toggler-icon"></span>
@@ -66,7 +67,7 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Feedback </h4>
+          <h4 class="modal-title"><i class="fa fa-comments"></i> Feedback </h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
@@ -86,8 +87,8 @@
               </div>
             </div>
             <div class="form-row">
-              <button type="button" class="btn btn-secondary ml-1" data-dismiss="modal">Cancel</button>
-              <button type="submit" class="btn btn-dark ml-2">Submit</button>
+              <!-- <button type="button" class="btn btn-secondary ml-1" data-dismiss="modal">Cancel</button> -->
+              <button type="submit" class="btn btn-lg btn-primary ml-auto mr-2" style="border-radius: 50%;"><i class="fa-solid fa-paper-plane"></i></button>
             </div>
           </form>
         </div>
@@ -96,17 +97,20 @@
   </div>
 
   <header class="jumbotron">
-    <div class="container">
+    <div class="container my-5">
       <div class="row row-header align-items-center">
-        <div class="col-lg-2 align-items-center mb-3">
-          <div class="media">
-            <img class="d-flex mr-3 img-thumbnail align-self-center" src="templates/images/profile.jpg" alt="Soumyadeep Datta"
-              width="200px" height="200px">
+        <div class="col-lg-4 align-items-center mb-3">
+          <div class="container px-5">
+            <div class="media">
+              <img class="d-flex mr-3 img-thumbnail align-self-center" src="templates/images/profile.jpg" alt="Soumyadeep Datta" style="border-radius: 50%;"
+                width="200px" height="200px">
+            </div>
           </div>
         </div>
-        <div class="col-lg-10 col order-sm-first">
-          <h2>Soumyadeep Datta</h2>
-          <h5 class="text-primary"><span style="font-family: monospace;"><span class="fa fa-calendar"></span> DOB: 2<sup>nd</sup> October, 2000</span>
+        <div class="col-lg-8 col order-lg-first">
+          <div class="container px-5">
+            <h2>Soumyadeep Datta</h2>
+          <h5 class="text-primary"><span><span class="fa fa-calendar"></span> DOB: 2<sup>nd</sup> October, 2000</span>
           </h5>
           <p style="text-align: justify;">
             I am looking to work with an organization where I can utilize my skills to enhance
@@ -114,6 +118,7 @@
             long term relationship with the organization. I also like to explore new technologies, new
             ideas, and try to incorporate them into my area of application.
           </p>
+          </div>
         </div>
 
       </div>
@@ -121,6 +126,7 @@
   </header>
 
   <div class="container">
+    <div class="py-5"></div>
     <h2 class="my-5">Skills</h2>
     <div class="container">
       <div class="row">
@@ -174,7 +180,7 @@
       </div>
 
     </div>
-    <div id="projects"></div>
+    <div class="py-5" id="projects"></div>
     <h2 class="my-5">Projects</h2>
     <div id="mycarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
@@ -226,7 +232,7 @@
         </a>
       </div>
     </div>
-    <div id="education"></div>
+    <div class="py-5" id="education"></div>
     <h2 class="my-5">Education</h2>
     <div class="container">
       <div id="accordion">
@@ -260,11 +266,12 @@
                   <h4 class="mt-0">Niva Ananda Vidyalaya</h4>
                   <p>
                   <address>
+                    <i class="fa-solid fa-location-dot"></i>
                     Niva Park, Battala Bazar<br>
                     Brahmapur, Kolkata-700096<br>
                     WEST BENGAL, INDIA<br>
-                    <i class="fa fa-phone fa-lg"></i>: 033-24109029<br>
-                    <i class="fa fa-envelope fa-lg"></i>:
+                    <i class="fa fa-phone fa-lg"></i> 033-24109029<br>
+                    <i class="fa fa-envelope fa-lg"></i>
                     <a href="mailto:nivaananda@yahoo.com" target="_blank"> nivaananda@yahoo.com</a>
                   </address>
                   </p>
@@ -286,7 +293,7 @@
                         <b>West Bengal Board of Secondary Education</b>
                       </div>
                       <div class="container">
-                        <table class="table table-sm table-hover">
+                        <table class="table table-bordered table-hover">
                           <tbody>
                             <tr>
                               <th>Percentage</th>
@@ -313,15 +320,15 @@
                     <div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab1">
                       <div class="container mb-2">
                         <b>West Bengal Council of Higher Secondary Education</b> <br>
-                        <b>Stream :</b> <i>Science</i>
+                        <b>Stream :</b> Science
                       </div>
                       <div class="container">
-                        <table class="table table-sm table-hover">
+                        <table class="table table-bordered table-hover">
                           <tbody>
                             <tr>
                               <th>Percentage</th>
                               <td data-toggle="tooltip" data-html="true"
-                                title="Best of five<br><strong>Percentage : </strong>89<br><strong>Overall : </strong>445"
+                                title="Best of five<br>Percentage : 89<br>Overall : 445"
                                 data-placement="bottom">86.67</td>
                             </tr>
                             <tr>
@@ -374,20 +381,22 @@
                   <h4 class="mt-0">
                     St. Thomas' College of Engineering & Technology
                   </h4>
-                  <h6><i>B.Tech in Computer Science Engineering</i></h6>
+                  <h6><i class="fa-solid fa-award"></i> B.Tech in Computer Science Engineering</h6>
                   <div class="container mt-3 mb-0">
+                    <i class="fa-solid fa-user-graduate"></i>
                     2023 Passout Batch <br>
                     CSE 3<sup>rd</sup> Year 6<sup>th</sup> Semester
                   </div>
                   <p>
                   <address>
+                    <i class="fa-solid fa-location-dot"></i>
                     4, Diamond Harbour Road <br>
                     Kidderpore, Kolkata - 700023 <br>
                     WEST BENGAL, INDIA <br>
-                    <i class="fa fa-phone fa-lg"></i>: 033 24481081<br>
-                    <i class="fa fa-envelope fa-lg"></i>:
+                    <i class="fa fa-phone fa-lg"></i> 033 24481081<br>
+                    <i class="fa fa-envelope fa-lg"></i>
                     <a href="mailto:stcet@stcet.ac.in" target="_blank"> stcet@stcet.ac.in</a><br>
-                    <i class="fa fa-globe fa-lg"></i>:
+                    <i class="fa fa-globe fa-lg"></i>
                     <a href="https://stcet.org" target="_blank"> https://stcet.org</a>
                   </address>
                   </p>
@@ -408,8 +417,8 @@
                     <div class="tab-pane fade show active" id="nav-home3" role="tabpanel"
                       aria-labelledby="nav-home-tab3">
                       <div class="container">
-                        <table class="table table-sm table-hover">
-                          <div class="container">
+                        <table class="table table-bordered table-hover">
+                          <div class="container mt-3">
                             <tbody>
                               <tr>
                                 <th>1ST</th>
@@ -452,7 +461,7 @@
 
       </div>
     </div>
-    <div id="achievements"></div>
+    <div class="py-5" id="achievements"></div>
     
     <div class="container">
       <h2 class="my-5">Achievements</h2>
@@ -605,7 +614,7 @@
 
   <footer class="footer mt-5">
     <div class="container">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-4 offset-1 col-lg-2">
           <h5>Links</h5>
           <ul class="list-unstyled">
@@ -629,21 +638,19 @@
           </address>
         </div>
         <div class="col-12 col-lg-4 align-self-center">
-          <div class="text-center">
-            <a class="btn btn-social-icon btn-google" href="mailto:soumyadeepdatta34@gmail.com" target="_blank"><i
-                class="fa fa-google"></i></a>
-            <a class="btn btn-social-icon btn-dark disabled" href="" target="_blank"><i class="fa fa-slack"></i></a>
-            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/soumyadeep-datta-884090216/" target="_blank"><i
-                class="fa fa-linkedin"></i></a>
-            <a class="btn btn-social-icon btn-twitter disabled" href="http://twitter.com/" target="_blank"><i
-                class="fa fa-twitter"></i></a>
-            <a class="btn btn-social-icon btn-github" href="https://github.com/SoumyadeepDatta" target="_blank"><i class="fa fa-github"></i></a>
-            <a class="btn btn-social-icon btn-microsoft disabled" href=""><i class="fa fa-telegram" target="_blank"></i></a>
+          <div class="text-center mt-5">
+            <a class="btn btn-danger mr-2" style="border-radius: 50%;" href="mailto:soumyadeepdatta34@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+            
+            <a class="btn btn-primary mr-2" style="border-radius: 50%;" href="https://www.linkedin.com/in/soumyadeep-datta-884090216/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+            
+            <a class="btn btn-dark" style="border-radius: 50%;" href="https://github.com/SoumyadeepDatta" target="_blank"><i class="fa-brands fa-github"></i></a>
+            
           </div>
 
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mt-5">
         <div class="col-auto">
           <p>© Copyright 2022 Soumyadeep Datta</p>
         </div>
